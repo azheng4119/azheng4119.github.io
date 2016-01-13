@@ -13,7 +13,7 @@ import java.awt.image.BufferedImage;
 import javax.swing.JFrame;
 
 public class MyWindow extends JFrame implements KeyListener{
-//hahahahah
+//hi
 	static int screenWidth;
 	static int screenHeight;
 	int width = 700;
