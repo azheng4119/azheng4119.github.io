@@ -14,13 +14,19 @@ public class Hero {
 	int locX;
 	int locY;
 	int moveSpeed = 5;
-	boolean pickedUp = false;;
+	boolean pickedUp = false;
 	int width = 100;
 	int height = 200;
+	int health = 100;
+	
+	public int getHealth(){
+		return health;
+	}
+	
 	public int getMoveSpeed() {
 		return moveSpeed;
 	}
-
+	
 	public void setMoveSpeed(int moveSpeed) {
 		this.moveSpeed = moveSpeed;
 	}
